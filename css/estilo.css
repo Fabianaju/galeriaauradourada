@@ -1,0 +1,258 @@
+/* Configurações Globais */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+/* Estilo para o Navbar */
+.navbar-dark .navbar-brand img {
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-dark .navbar-brand img:hover {
+    filter: brightness(1.5) sepia(1) saturate(5) hue-rotate(15deg);
+    transform: scale(1.1);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #f1c40f;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover, 
+.navbar-dark .navbar-nav .nav-link:focus {
+    color: #f1c40f;
+    text-shadow: 0 0 8px rgba(241, 196, 15, 0.8), 0 0 12px rgba(241, 196, 15, 0.6);
+}
+
+.navbar-dark .navbar-nav .nav-link:active {
+    color: #f1c40f;
+    text-shadow: 0 0 15px rgba(241, 196, 15, 1), 0 0 20px rgba(241, 196, 15, 0.8);
+}
+
+/* Botão da Coleção Exclusiva */
+.btn-outline-gold {
+    border-color: #f1c40f;
+    color: #f1c40f;
+    transition: background-color 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background-color: #f1c40f;
+    color: #000;
+    text-shadow: 0 0 8px rgba(241, 196, 15, 0.8), 0 0 12px rgba(241, 196, 15, 0.6);
+}
+
+/* Estilo para Títulos */
+h1, h2 {
+    font-family: 'Lobster', cursive;
+}
+
+.text-gold {
+    color: #f1c40f;
+}
+
+.home-section {
+    padding: 100px 0;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+}
+.home-image img {
+    max-width: 90%; 
+    height: auto; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.home-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.home-text p {
+    font-size: 1.2rem;
+}
+
+.animated-frame {
+    border: 5px solid #f1c40f;
+    padding: 10px;
+    transition: transform 0.3s ease;
+     max-width: 100%; 
+}
+
+.animated-frame:hover {
+    transform: scale(1.05);
+}
+
+
+/* Seção Sobre Nós */
+.about-us {
+    padding: 50px 0;
+    background-color: #222;
+}
+
+.about-image {
+    margin-bottom: 30px;
+}
+
+.about-text h2 {
+    color: #f1c40f;
+}
+
+.about-text p {
+    font-size: 1.1rem;
+    text-align:justify;
+}
+
+/* Galeria */
+.portfolio-section {
+    padding: 50px 0;
+}
+
+.portfolio-card {
+    margin-bottom: 30px;
+}
+
+.gallery-item {
+    position: relative;
+    border: 5px solid #f1c40f;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+/* Seção de Artistas */
+.our-artists {
+    padding: 50px 0;
+    background-color: #333;
+}
+
+.artists {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    max-width: 250px; 
+}
+
+.artist-image {
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #f1c40f;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.artist-image:hover {
+    transform: scale(1.1);
+}
+
+.artist-info {
+    text-align: center;
+}
+
+.artist-info h3 {
+    color: #f1c40f;
+    margin-bottom: 10px;
+}
+
+.artist-info p {
+    font-size: 1rem;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    color: #f1c40f;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #f1c40f;
+    text-shadow: 0 0 15px rgba(241, 196, 15, 1), 0 0 20px rgba(241, 196, 15, 0.8);
+}
+
+/* Seção de Contato */
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-info {
+    margin-bottom: 30px;
+}
+
+.contact-info h4 {
+    color: #f1c40f;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-info a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #fff;
+}
+
+.form-control {
+    background-color: #333;
+    border-color: #f1c40f;
+    color: #f1c40f;
+}
+
+.form-control:focus {
+    background-color: #444;
+    border-color: #f1c40f;
+    color: #fff;
+}
+
+.btn-outline-gold {
+    background-color: transparent;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-gold:hover {
+    background-color: #f1c40f;
+    color: #000;
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #777;
+}
+
+
